@@ -1,0 +1,204 @@
+body{
+    height: 100vh;
+    background-color: black;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    background-size: cover;
+    color: aqua;
+    align-content: center;
+    align-items: center;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    align-content: left;
+    font-size: 24px;
+    line-height: 55px;
+}
+nav ul{
+    float: right;
+    color: black;
+    list-style: none;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    width: 100%;
+    height: 50pxpx;
+    color: black;
+    font-size: 24px;
+    padding: 0px 10px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+
+} 
+
+nav ul li a:hover{
+    padding: 4px 4px;
+}
+.dos{
+    font-weight: 200;
+    font-size: large;
+}
+img{
+    flex-basis: 40%;
+    float: none;
+    padding:20px;
+    border-radius: 50%;
+    max-width: 10%;
+    align-content: center;
+    position: relative;
+}
+
+.introduction{
+    align-content: center;
+    text-align: center;
+}
+
+.about{
+    align-content: center;
+    text-align: center;
+}
+
+.hobbies{
+    align-content: center;
+}
+ul li{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+h2{
+    color: brown;
+}
+
+.tenor{
+    border: 5px solid #15f4ee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    color: #15f4ee;
+    font-family: 'poppins';
+    font-weight: 400px;
+    float: right ;  
+    text-transform: uppercase; 
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1.5s;
+    text-decoration: none;
+    list-style: none;
+} 
+.tenor:hover{
+    box-shadow: 0 5px 10px 0 #15f4ee inset, 0 5px 10px #15f4ee;
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+.social{
+    ;
+}
+
+footer{
+    background-color: blue;
+}
+.heading{
+    font-family: lato;
+        font-style: oblique;
+        text-align: center;
+        color: #15f4ee;
+        padding: 20px;
+        font-size: 50px;
+    }
+
+form{
+    align-items: center;
+    text-align: center;
+}
+#name{
+font-family: lato;
+    text-align: center;
+    color: #15f4ee;
+    padding: 20px;
+    font-size: 2opx
+
+}
+
+#email{
+font-family: lato;
+    text-align: center;
+    color: #15f4ee;
+    padding: 20px;
+    font-size: 2opx
+}
+
+#message{
+
+font-family: lato;
+    text-align: center;
+    color: #15f4ee;
+    padding: 20px;
+    font-size: 2opx
+}
+
+.button{
+
+    border: 5px solid #15f4ee;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 14px;
+        color: #15f4ee;
+        font-family: 'poppins';
+        font-weight: 400px;
+        float: left 500px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        cursor: pointer;
+        transition: 1.5s;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .button:hover {
+        box-shadow: 0 5px 10px 0 #15f4ee inset, 0 5px 10px #15f4ee;
+        text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+
+.signin{
+    align-items: center;
+    text-align: center;
+}
+
+.password {
+    font-family: lato;
+    text-align: center;
+    color: #15f4ee;
+    padding: 20px;
+    font-size: 20px;
+}
+.email{
+    
+            font-family: lato;
+            text-align: center;
+            color: #15f4ee;
+            padding: 20px;
+            font-size: 2opx
+}
+.heading{
+    font-family: lato;
+        text-align: center;
+        color: #15f4ee;
+        padding: 20px;
+        font-size: 50px;
+}
